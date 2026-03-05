@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Class Schedule Page</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f2f2f2;
+            }
+
+            header, footer {
+                background-color: #333;
+                color: white;
+                text-align: center;
+                padding: 15px;
+            }
+
+            main {
+                padding: 20px;
+            }
+
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-top: 20px;
+                background-color: white;
+            }
+
+            th, td {
+                border: 1px solid black;
+                padding: 8px;
+                text-align: center;
+            }
+
+            thead {
+                background-color: #555;
+                color: white;
+            }
+
+            tfoot {
+                background-color: #ddd;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <header>
+            <h1>My Class Schedule</h1>
+        </header>
+
+        <main>
+
+            <h2>📌 Daily Subjects (Ordered List)</h2>
+            <ol>
+                <li>Programming 2</li>
+                <li>Web Development</li>
+                <li>Basic Electronics</li>
+                <li>NSTP 2</li>
+                <li>Pathfit 2</li>
+            </ol>
+
+            <h2>📚 School Reminders (Unordered List)</h2>
+            <ul>
+                <li>Submit assignments on time</li>
+                <li>Review before quizzes</li>
+                <li>Participate in class discussions</li>
+                <li>Bring student ID daily</li>
+            </ul>
+
+            <h2>📊 Student Grade Table</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Subject</th>
+                        <th>Score</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Calunsag, Dave Celso L.</td>
+                        <td>Programming 2</td>
+                        <td>92</td>
+                    </tr>
+                    <tr>
+                        <td>Calunsag, Dave Celso L.</td>
+                        <td>Web Development</td>
+                        <td>91</td>
+                    </tr>
+                    <tr>
+                        <td>Dupa, Zyrillian J.</td>
+                        <td>Basic Electronics</td>
+                        <td>93</td>
+                    </tr>
+                    <tr>
+                        <td>Dupa, Zyrillian J.</td>
+                        <td>NSTP 2</td>
+                        <td>90</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Average Score</td>
+                        <td>
+                            <!-- Compute average -->
+                            91.5
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+
+        </main>
+
+        <footer>
+            <p>Calunsag & Dupa BSIT 1B - 2026</p>
+        </footer>
+
+    </body>
+</html>
